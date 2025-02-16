@@ -1,0 +1,54 @@
+
+<div class="sheet-button-select"
+  <button class="action" name="act_character" >Character</button>
+  <button class="action" name="act_spells" >Spells</button>
+  <button class="action" name="act_gear" >Gear</button>
+  <button class="action" name="act_retainers" >Retainers</button>
+</div>
+<div class="info-grid">
+    <div class="logo">
+      
+    <div class="infos">
+      <div class="flex">
+        <label class="inline-flex">
+          <span data-i18n="name-pc-abbr">PC</span>
+          <input type="text" name="attr_character_name" data-i18n-placeholder="character-name"
+            placeholder="Character name" />
+        </label><br>
+        <label class="inline-flex">
+          <span data-i18n="alignment-abbr">AL</span>
+          <input type="text" name="attr_alignment" data-i18n-placeholder="alignment" placeholder="Alignment" />
+        </label>
+      </div>
+    
+      <div class="flex">
+       <label class="inline-flex">
+        <span data-i18n="Kindred">Kindred</span>
+         <select name="attr_kindred">
+          <optgroup label="Kindred" data-i18n-label="kindred">
+           <option>Breggle</option>
+           <option>Elf</option>
+           <option>Grimalkin</option>
+           <option>Human</option>
+           <option>Mossling</option>
+           <option>Woodgrue</option>
+        
+          </optgroup>
+      
+       </div>
+      
+      <div class="flex">
+       <label class="inline-flex">
+        <span data-i18n="class">Class</span>
+         <select name="attr_class">
+          <optgroup label="Class" data-i18n-label="class">
+           <option>Cleric</option>
+           <option>Dwarf</option>
+           <option>Elf</option>
+           <option>Fighter</option>
+           <option>Halfling</option>
+           <option>Magic-User</option>
+           <option>Thief</option>
+          </optgroup>
+      </div>    
+            
